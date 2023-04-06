@@ -8,44 +8,35 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Exercício 12 - Lista de PHP</title>
+    <title>Index</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand" aria-current="page">Pedro Amaral</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="curriculo/ceevee/index.html">Currículo</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Lista de Exercícios PHP</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link dropdown-toggle" 
+                               href="#" id="exerciciosDropdown" role="button" 
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                               Lista de Exercícios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="exerciciosDropdown">
                                 <li><a class="dropdown-item" href="lista-exercicios/ex1.php">Exercício 1</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex2.php">Exercício 2</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex3.php">Exercício 3</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex4.php">Exercício 4</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex5.php">Exercício 5</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex6.php">Exercício 6</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item"href="lista-exercicios/ex7.php">Exercício 7</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="lista-exercicios/ex7.php">Exercício 7</a></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex8.php">Exercício 8</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex9.php">Exercício 9</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex10.php">Exercício 10</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex11.php">Exercício 11</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="lista-exercicios/ex12.php">Exercício 12</a></li>
                             </ul>
                         </li>
@@ -53,8 +44,8 @@
                             <a class="nav-link" href="sistema/view/cliente_view.php">Sistema</a>
                         </li>
                     </ul>
-                </div><!-- Navbar-Collapse -->
-            </div><!-- Container Fluid -->
+                </div>
+            </div>
         </nav>
     </header>
     
@@ -63,23 +54,20 @@
             <div class="row row-cols-lg-4 row-cols-sm-1 g-2 g-lg-3">
                 <div class="col">
                     <div class="card border border-dark" style="width: 18rem;">
-                        <a href="">
-                            <img src="img/curriculo.png" class="card-img-top" alt="...">
+                        <a href="curriculo/ceevee/index.html">
+                            <img src="img/curriculo.png" class="card-img-top" alt="Ícone representando um currículo" />
                             <div class="card-body">
-                                <h5 class="card-title">Curriculo</h5>
-                                <!--<a href="#" class="btn btn-dark"></a>-->
+                                <h5 class="card-title">Currículo</h5>
                             </div>
                         </a>
-                        
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border border-dark" style="width: 18rem;">
                         <a href="lista-exercicios/ex1.php">
-                            <img src="img/php.png" class="card-img-top img-fluid" alt="...">
+                            <img src="img/php.png" class="card-img-top img-fluid" alt="Logo do PHP" />
                             <div class="card-body">
                                 <h5 class="card-title">Lista de Exercícios</h5>
-                                <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
                             </div>
                         </a>
                     </div>
@@ -87,16 +75,15 @@
                 <div class="col">
                     <div class="card border border-dark" style="width: 18rem;">
                         <a href="sistema/view/cliente_view.php">
-                            <img src="img/cliente.png" class="card-img-top" alt="...">
+                            <img src="img/cliente.png" class="card-img-top" alt="Ícone representando clientes" />
                             <div class="card-body">
                                 <h5 class="card-title">Sistema CRUD</h5>
-                                <!--<a href="#" class="btn btn-dark">Go somewhere</a>-->
                             </div>
                         </a>  
                     </div>
                 </div>
             </div>
-        </div><!-- Container -->
+        </div>
     </main>
     
     <footer id="rodape">
